@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D4NeMsqzN2q+FlCzCqfaxZfc07iluiVJ3W2olT5BdJWQcUWqkCyXD7XGUQlPKLC8gTzWsNJpOheCmNlDeBSU1A==",
+  "success": true,
+  "projectFilePath": "/mnt/dati/workspace/visualstudio-workspace/mvc_bug_tracker/mvc_bug_tracker.csproj",
+  "expectedPackageFiles": [
+    "/home/filippo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.10/microsoft.aspnetcore.app.ref.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
