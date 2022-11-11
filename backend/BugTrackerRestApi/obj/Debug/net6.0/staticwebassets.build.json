@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HjjA82gMc1fD/LO8Z6n8IkbW/upFSEGRtZNdu1Y26vU=",
+  "Source": "BugTrackerRestApi",
+  "BasePath": "_content/BugTrackerRestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -34,9 +34,11 @@ kind: Service
 metadata:
   name: mongodb-service
 spec:
+  type: LoadBalancer
   selector:
     app: mongodb-deployment
   ports:
     - protocol: TCP
       port: 27017
       targetPort: 27017
+      nodePort: 30001
