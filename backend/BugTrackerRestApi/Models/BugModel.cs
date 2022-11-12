@@ -16,10 +16,10 @@ public class Bug
     [JsonPropertyName("Title")]
     public string Title { get; set; }
 
-    [BsonElement("Severity")]
+    // [BsonElement("Severity")]
     public int Severity { get; set; }
 
-    [BsonElement("Timestamp")]
+    // [BsonElement("Timestamp")]
     public DateTime CreatedDateTime { get; set; } = DateTime.Now;
 }
 

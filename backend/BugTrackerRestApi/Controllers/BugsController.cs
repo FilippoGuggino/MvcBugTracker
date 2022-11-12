@@ -38,7 +38,7 @@ public class BugsController : ControllerBase
     public async Task<IActionResult> Post(Bug newBug)
     {
         await _bugsService.CreateAsync(newBug);
-
+        Console.WriteLine(newBug.Title);
         return CreatedAtAction(nameof(Get), new { id = newBug.Id }, newBug);
     }
 

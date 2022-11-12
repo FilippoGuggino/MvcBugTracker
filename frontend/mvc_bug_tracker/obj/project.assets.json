@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/dati/workspace/visualstudio-workspace/mvc_bug_tracker/mvc_bug_tracker.csproj",
+      "projectUniqueName": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/mvc_bug_tracker.csproj",
       "projectName": "mvc_bug_tracker",
-      "projectPath": "/mnt/dati/workspace/visualstudio-workspace/mvc_bug_tracker/mvc_bug_tracker.csproj",
+      "projectPath": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/mvc_bug_tracker.csproj",
       "packagesPath": "/home/filippo/.nuget/packages/",
-      "outputPath": "/mnt/dati/workspace/visualstudio-workspace/mvc_bug_tracker/obj/",
+      "outputPath": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/filippo/.nuget/NuGet/NuGet.Config"

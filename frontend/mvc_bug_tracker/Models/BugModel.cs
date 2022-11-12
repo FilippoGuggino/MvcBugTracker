@@ -1,14 +1,11 @@
-using System.ComponentModel.DataAnnotations;
+// using System.ComponentModel.DataAnnotations;
 
-namespace mvc_bug_tracker;
+namespace mvc_bug_tracker.Models;
 
-public class BugMode
+public class Bug
 {
+    public string Id { get; set; }
 
-    [Key]
-    public int Id { get; set; }
-
-    [Required]
     public string Title { get; set; }
 
     public int Severity { get; set; }
