@@ -18,7 +18,7 @@ public class HomeController : Controller
     {
         Console.WriteLine("oaskdjasoi");
 
-        HttpHelper.TestGet();
+        // HttpHelper.TestGet();
         return View();
     }
 

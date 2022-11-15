@@ -16,3 +16,86 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.task-list{
+  height: fit-content;
+  min-height: 50px !important;
+  /* min-height: fit-content; */
+  margin-bottom: 0px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+div.card{
+  height: fit-content;
+  /* min-height: ; */
+}
+
+.col-xl{
+  flex-basis: auto !important;
+}
+
+.content-wrapper{
+  margin-left: 6.5rem;
+}
+
+@media (min-width: 768px){
+  .content-wrapper{
+    margin-left: 14rem !important;
+  }
+}
+
+.sidebar{
+  position: fixed;
+}
+
+div.base{
+    background-color: #f8f9fc;
+}
+
+div.board-lists{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+.base {
+  background-color: white;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  display: grid;
+  grid-template-rows: max-content auto;
+  grid-gap: 10px;
+  height: 100%;
+  padding: 5px;
+}
+
+.board {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: max-content auto;
+}
+
+.board-lists {
+  display: grid;
+  grid-auto-columns: 272px;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  overflow-x: auto;
+}
+
+.board-list {
+  background-color: rgb(235, 236, 240);
+  border-radius: 3px;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-gap: 10px;
+  height: max-content;
+  padding: 10px;
+}

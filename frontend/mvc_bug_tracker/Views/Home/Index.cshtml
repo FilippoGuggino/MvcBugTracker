@@ -216,261 +216,228 @@
                 below were created to extend this theme past the default utility classes built into Bootstrap's
                 framework.</p>
 
-            <!-- Content Row -->
-            <div class="row">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@@mdo">Add Task</button>
 
-                <!-- First Column -->
-                <div class="col-lg-4">
-
-                    <!-- Custom Text Color Utilities -->
-                    <div class="card shadow mb-4 column to-do-column">
-                        <div class="card-header py-3 mb-2">
-                            <h6 class="m-0 font-weight-bold text-primary">Custom Text Color Utilities</h6>
-                        </div>
-                        <ul class="col-xl task-list" id="to-do">
-
-                            <li class="card mb-2 py-3 border-left-primary task">
-                                <div class="card-body">
-                                    .border-left-primary
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-success task">
-                                <div class="card-body">
-                                    .border-left-success
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-info task">
-                                <div class="card-body">
-                                    .border-left-info
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-warning task">
-                                <div class="card-body">
-                                    .border-left-warning
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-danger task">
-                                <div class="card-body">
-                                    .border-left-danger
-                                </div>
-                            </li>
-
-                        </ul>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-
-                    <!-- Custom Font Size Utilities -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Custom Font Size Utilities</h6>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Title:</label>
+                            <input type="text" class="form-control" id="recipient-name">
                         </div>
-                        <div class="card-body">
-                            <p class="text-xs">.text-xs</p>
-                            <p class="text-lg mb-0">.text-lg</p>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Description:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
                         </div>
+                        <div class="form-group">
+                            <label for="message-severity" class="col-form-label">Severity:</label>
+                            <input type="text" class="form-control" id="message-severity">
+                        </div>
+                        </form>
                     </div>
-
-                </div>
-
-                <!-- Second Column -->
-                <div class="col-lg-4">
-
-                    <!-- Background Gradient Utilities -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3 mb-2">
-                            <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
-                            </h6>
-                        </div>
-                        <ul class="col-xl task-list" id="doing">
-
-                            <li class="card mb-2 py-3 border-left-primary task">
-                                <div class="card-body">
-                                    .border-left-primary
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-success task">
-                                <div class="card-body">
-                                    .border-left-success
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-info task">
-                                <div class="card-body">
-                                    .border-left-info
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-warning task">
-                                <div class="card-body">
-                                    .border-left-warning
-                                </div>
-                            </li>
-
-                            <li class="card mb-2 py-3 border-left-danger task">
-                                <div class="card-body">
-                                    .border-left-danger
-                                </div>
-                            </li>
-
-                        </ul>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
                     </div>
-
-                </div>
-
-                <!-- Third Column -->
-                <div class="col-lg-4">
-
-                    <!-- Grayscale Utilities -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Custom Grayscale Background Utilities
-                            </h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="p-3 bg-gray-100">.bg-gray-100</div>
-                            <div class="p-3 bg-gray-200">.bg-gray-200</div>
-                            <div class="p-3 bg-gray-300">.bg-gray-300</div>
-                            <div class="p-3 bg-gray-400">.bg-gray-400</div>
-                            <div class="p-3 bg-gray-500 text-white">.bg-gray-500</div>
-                            <div class="p-3 bg-gray-600 text-white">.bg-gray-600</div>
-                            <div class="p-3 bg-gray-700 text-white">.bg-gray-700</div>
-                            <div class="p-3 bg-gray-800 text-white">.bg-gray-800</div>
-                            <div class="p-3 bg-gray-900 text-white">.bg-gray-900</div>
-                        </div>
                     </div>
                 </div>
-
             </div>
-
+            
+            
         </div>
         <!-- /.container-fluid -->
 
     </div>
 
-    <div class="main-container">
-  <ul class="columns">
+   
+<div class="base">
+  <div class="board">
+    <div class="board-lists">
+      <div class="card shadow">
+        <div class="card-header py-3 mb-2">
+            <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+            </h6>
+        </div>
+        <ul class="col-xl task-list" id="to-do">
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+            
+            <li class="card mb-2 py-3 border-left-success task">
+                <div class="card-body">
+                    .border-left-success
+                </div>
+            </li>
 
-    <li class="column to-do-column">
-      <div class="column-header">
-        <h4>To Do</h4>
+            <li class="card mb-2 py-3 border-left-info task">
+                <div class="card-body">
+                    .border-left-info
+                </div>
+            </li>
+
+            <li class="card mb-2 py-3 border-left-warning task">
+                <div class="card-body">
+                    .border-left-warning
+                </div>
+            </li>
+
+            <li class="card mb-2 py-3 border-left-danger task">
+                <div class="card-body">
+                    .border-left-danger
+                </div>
+            </li>
+        </ul>
       </div>
-      <ul class="task-list" id="to-do">
-        <li class="task">
-          <p>Analysis</p>
-        </li>
-        <li class="task">
-          <p>Coding</p>
-        </li>
-        <li class="task">
-          <p>Card Sorting</p>
-        </li>
-        <li class="task">
-          <p>Measure</p>
-        </li>
-      </ul>
-    </li>
-
-    <li class="column doing-column">
-      <div class="column-header">
-        <h4>Doing</h4>
+    <div class="card shadow">
+        <div class="card-header py-3 mb-2">
+            <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+            </h6>
+        </div>
+        <div class="col-xl task-list" id="doing">
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>   
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+        </div>
       </div>
-      <ul class="task-list" id="doing">
-        <li class="task">
-          <p>Hypothesis</p>
-        </li>
-        <li class="task">
-          <p>User Testing</p>
-        </li>
-        <li class="task">
-          <p>Prototype</p>
-        </li>
-      </ul>
-    </li>
-
-    <li class="column done-column">
-      <div class="column-header">
-        <h4>Done</h4>
+      <div class="card shadow">
+        <div class="card-header py-3 mb-2">
+            <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+            </h6>
+        </div>
+        <div class="col-xl task-list" id="doing">
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>   
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+        </div>
       </div>
-      <ul class="task-list" id="done">
-        <li class="task">
-          <p>Ideation</p>
-        </li>
-        <li class="task">
-          <p>Sketches</p>
-        </li>
-      </ul>
-    </li>
-
-    <li class="column trash-column">
-      <div class="column-header">
-        <h4>Trash</h4>
+      <div class="card shadow">
+        <div class="card-header py-3 mb-2">
+            <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+            </h6>
+        </div>
+        <div class="col-xl task-list" id="doing">
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>   
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>
+            <li class="card mb-2 py-3 border-left-primary task">
+                <div class="card-body">
+                    .border-left-primary
+                </div>
+            </li>    
+        </div>
       </div>
-      <ul class="task-list" id="trash">
-        <li class="task">
-          <p>Interviews</p>
-        </li>
-        <li class="task">
-          <p>Research</p>
-        </li>
-
-      </ul>
-      <div class="column-button">
-        <button class="button delete-button" onclick="emptyTrash()">Delete</button>
-      </div>
-    </li>
-
-  </ul>
-</div>
-
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     </div>
+  </div>
+</div>
 
 <!-- For drag and drop-->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.6.6/dragula.min.js'></script>
+    @* <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/$VERSION/dragula.min.js'></script> *@
     <script>
             /* Custom Dragula JS */
             dragula([
-            document.getElementById("to-do"),
-            document.getElementById("doing"),
-            document.getElementById("done"),
-            document.getElementById("trash")
-            ]);
-            removeOnSpill: false
-                .on("drag", function(el) {
-                    el.className.replace("ex-moved", "");
-                })
-                .on("drop", function(el) {
-                    el.className += "ex-moved";
-                })
-                .on("over", function(el, container) {
-                    container.className += "ex-over";
-                })
-                .on("out", function(el, container) {
-                    container.className.replace("ex-over", "");
-                });
+                document.getElementById("to-do"),
+                document.getElementById("doing"),
+                document.getElementById("done"),
+                document.getElementById("trash")
+            ])
+            .on("drag", function(el) {
+                el.className = el.className.replace(" ex-moved", "");
+            })
+            .on("drop", function(el) {
+                el.className += " ex-moved";
+            })
+            .on("over", function(el, container) {
+                container.className += " ex-over";
+            })
+            .on("out", function(el, container) {
+                container.className = container.className.replace(" ex-over", "");
+            });
+
+            removeOnSpill: false            
 
             /* Vanilla JS to add a new task */
             function addTask() {
-            /* Get task text from input */
-            var inputTask = document.getElementById("taskText").value;
-            /* Add task to the 'To Do' column */
-            document.getElementById("to-do").innerHTML +=
-                "<li class='task'><p>" + inputTask + "</p></li>";
-            /* Clear task text from input after adding task */
-            document.getElementById("taskText").value = "";
+                /* Get task text from input */
+                var inputTask = document.getElementById("taskText").value;
+                /* Add task to the 'To Do' column */
+                document.getElementById("to-do").innerHTML +=
+                    "<li class='task'><p>" + inputTask + "</p></li>";
+                /* Clear task text from input after adding task */
+                document.getElementById("taskText").value = "";
             }
 
             /* Vanilla JS to delete tasks in 'Trash' column */
             function emptyTrash() {
-            /* Clear tasks from 'Trash' column */
-            document.getElementById("trash").innerHTML = "";
+                /* Clear tasks from 'Trash' column */
+                document.getElementById("trash").innerHTML = "";
             }
+
+            $('#exampleModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var recipient = button.data('whatever') // Extract info from data-* attributes
+                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                var modal = $(this)
+                modal.find('.modal-title').text('New message to ' + recipient)
+                @* modal.find('.modal-body input').val(recipient) *@
+            })
 
         </script>
     
