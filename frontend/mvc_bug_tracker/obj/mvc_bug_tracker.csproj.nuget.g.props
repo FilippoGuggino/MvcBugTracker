@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/home/filippo/.nuget/packages/" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/home/filippo/.nuget/packages/awssdk.core/3.7.100.18</PkgAWSSDK_Core>
+    <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">/home/filippo/.nuget/packages/awssdk.securitytoken/3.7.0.3</PkgAWSSDK_SecurityToken>
+    <PkgAWSSDK_CognitoIdentityProvider Condition=" '$(PkgAWSSDK_CognitoIdentityProvider)' == '' ">/home/filippo/.nuget/packages/awssdk.cognitoidentityprovider/3.7.101.18</PkgAWSSDK_CognitoIdentityProvider>
+    <PkgAWSSDK_CognitoIdentity Condition=" '$(PkgAWSSDK_CognitoIdentity)' == '' ">/home/filippo/.nuget/packages/awssdk.cognitoidentity/3.7.0.3</PkgAWSSDK_CognitoIdentity>
+  </PropertyGroup>
 </Project>
