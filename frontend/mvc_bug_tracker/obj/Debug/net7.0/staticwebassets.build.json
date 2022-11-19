@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UIbjZCU+ebKm40fzXpyFcjWBBUZPu8MOPC2lQMp8bMQ=",
+  "Hash": "dZFMEegZh7f7SR5ya/Iezfn9hHr7avU54udtiMevWRA=",
   "Source": "mvc_bug_tracker",
   "BasePath": "_content/mvc_bug_tracker",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/bundle/mvc_bug_tracker.styles.css",
+      "Identity": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/bundle/mvc_bug_tracker.styles.css",
       "SourceId": "mvc_bug_tracker",
       "SourceType": "Computed",
-      "ContentRoot": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/mvc_bug_tracker",
       "RelativePath": "mvc_bug_tracker.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/bundle/mvc_bug_tracker.styles.css"
+      "OriginalItemSpec": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/bundle/mvc_bug_tracker.styles.css"
     },
     {
-      "Identity": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/projectbundle/mvc_bug_tracker.bundle.scp.css",
+      "Identity": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/projectbundle/mvc_bug_tracker.bundle.scp.css",
       "SourceId": "mvc_bug_tracker",
       "SourceType": "Computed",
-      "ContentRoot": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/mvc_bug_tracker",
       "RelativePath": "mvc_bug_tracker.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net6.0/scopedcss/projectbundle/mvc_bug_tracker.bundle.scp.css"
+      "OriginalItemSpec": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/obj/Debug/net7.0/scopedcss/projectbundle/mvc_bug_tracker.bundle.scp.css"
     },
     {
       "Identity": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/wwwroot/css/sb-admin-2.css",

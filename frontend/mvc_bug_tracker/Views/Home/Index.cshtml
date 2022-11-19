@@ -1,6 +1,28 @@
-﻿@{
+﻿@using mvc_bug_tracker.Controllers
+@using mvc_bug_tracker.Contracts.DTO
+@using Microsoft.AspNetCore.Authorization
+@using System.Diagnostics;
+@inject mvc_bug_tracker.Contracts.Services.IPersistService session
+
+@{
     ViewData["Title"] = "Home Page";
+
+    @* var id = User.Claims.Where(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).First();
+    var tokens = session.Get<TokenModel>($"{id.Value}_{UserController.Session_TokenKey}");  *@
+    @* Console.WriteLine(User.Identity); *@
 }
+
+@if(User.Identity.IsAuthenticated){
+    <h1>Happy frog</h1>
+}
+else{
+    <h1>Sadge</h1>
+}
+
+@* @if (tokens != null)
+{
+    <h1>Cacca puzza bau bau</h1>
+} *@
 
 <div id="content-wrapper" class="d-flex flex-column">
 

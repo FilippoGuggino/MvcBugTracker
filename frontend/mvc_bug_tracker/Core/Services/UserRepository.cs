@@ -6,6 +6,9 @@ using mvc_bug_tracker.Contracts;
 using mvc_bug_tracker.Contracts.DTO;
 using mvc_bug_tracker.Contracts.Repositories;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
@@ -14,6 +17,7 @@ using System.Linq;
 using System.Net;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Amazon.AspNetCore.Identity.Cognito;
 
 namespace mvc_bug_tracker.Core.Repositories
 {
@@ -25,7 +29,9 @@ namespace mvc_bug_tracker.Core.Repositories
         private readonly UserContextManager _userManager;
         private readonly HttpContext _httpContext;
 
-        public UserRepository(IOptions<AWS> appConfig, UserContextManager userManager, IHttpContextAccessor httpContextAccessor)
+        private readonly SignInManager<CognitoUser> _signInManager;
+
+        public UserRepository(IOptions<AWS> appConfig, UserContextManager userManager, IHttpContextAccessor httpContextAccessor, SignInManager<CognitoUser> signInManager)
         {
             _cloudConfig = appConfig.Value;
             _provider = new AmazonCognitoIdentityProviderClient(
@@ -33,6 +39,7 @@ namespace mvc_bug_tracker.Core.Repositories
             _userPool = new CognitoUserPool(_cloudConfig.UserPoolId, _cloudConfig.AppClientId, _provider);
             _userManager = userManager;
             _httpContext = httpContextAccessor.HttpContext;
+            _signInManager = signInManager;
         }
 
         public async Task<UserSignUpResponse> CreateUserAsync(UserSignUpModel model)
@@ -156,6 +163,7 @@ namespace mvc_bug_tracker.Core.Repositories
                     ExpiresIn = result.Item2.ExpiresIn,
                     RefreshToken = result.Item2.RefreshToken
                 };
+                
                 authResponseModel.IsSuccess = true;
                 return authResponseModel;
             }
@@ -256,6 +264,7 @@ namespace mvc_bug_tracker.Core.Repositories
             var response = await _provider.GlobalSignOutAsync(request);
 
             await _userManager.SignOut(_httpContext);
+            
             return new UserSignOutResponse { UserId = model.UserId, Message = "User Signed Out" };
         }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KjDnQZigCYAsz4rkzhBYKLkxFO9XS3hbEaVs8ltCRwFRCFbikooxp9z9bj8qS8la0SoRuFI6fj2SimsBTcxooQ==",
+  "dgSpecHash": "3UuWI24W7U3N1YJiF0/PGTSfrV6HO9FGY50gGWL4hb+8nSZ7hEjWxe9dmO7MKe/WWAtu0EWKltN6lICDJqjARA==",
   "success": true,
   "projectFilePath": "/mnt/dati/workspace/visualstudio-workspace/MvcBugTracker/frontend/mvc_bug_tracker/mvc_bug_tracker.csproj",
   "expectedPackageFiles": [
@@ -11,21 +11,23 @@
     "/home/filippo/.nuget/packages/awssdk.core/3.7.100.18/awssdk.core.3.7.100.18.nupkg.sha512",
     "/home/filippo/.nuget/packages/awssdk.extensions.netcore.setup/3.7.0.1/awssdk.extensions.netcore.setup.3.7.0.1.nupkg.sha512",
     "/home/filippo/.nuget/packages/awssdk.securitytoken/3.7.0.3/awssdk.securitytoken.3.7.0.3.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.5/microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/7.0.0/microsoft.aspnetcore.authentication.openidconnect.7.0.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.0/microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.8.0/microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.identitymodel.logging/6.8.0/microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.identitymodel.protocols/6.8.0/microsoft.identitymodel.protocols.6.8.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.8.0/microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.identitymodel.tokens/6.8.0/microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/home/filippo/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "/home/filippo/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
-    "/home/filippo/.nuget/packages/system.identitymodel.tokens.jwt/6.8.0/system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "/home/filippo/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
     "/home/filippo/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
     "/home/filippo/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "/home/filippo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.10/microsoft.aspnetcore.app.ref.6.0.10.nupkg.sha512"
+    "/home/filippo/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.0/microsoft.aspnetcore.app.ref.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
